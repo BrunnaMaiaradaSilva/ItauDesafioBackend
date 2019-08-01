@@ -1,0 +1,1 @@
+dotnet build Itau.DesafioBackend.sln -c Release & pause

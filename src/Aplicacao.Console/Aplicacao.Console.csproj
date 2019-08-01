@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>Itau.DesafioBackend.Aplicacao.Console</AssemblyName>
+    <RootNamespace>Itau.DesafioBackend.Aplicacao.Console</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="logmovimentacao.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="logmovimentacao.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aplicacao\Aplicacao.csproj" />
+    <ProjectReference Include="..\LeitoresDeMovimentacao\Api\LeitoresDeMovimentacao.Api.csproj" />
+    <ProjectReference Include="..\LeitoresDeMovimentacao\FormatoLog\LeitoresDeMovimentacao.Log.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Itau.DesafioBackend.LeitoresDeMovimentacao.Abstracoes</AssemblyName>
+    <RootNamespace>Itau.DesafioBackend.LeitoresDeMovimentacao.Abstracoes</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Core.csproj" />
+  </ItemGroup>
+
+</Project>

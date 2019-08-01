@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Itau.DesafioBackend.Core</RootNamespace>
+    <AssemblyName>Itau.DesafioBackend.Core</AssemblyName>
+  </PropertyGroup>
+
+</Project>

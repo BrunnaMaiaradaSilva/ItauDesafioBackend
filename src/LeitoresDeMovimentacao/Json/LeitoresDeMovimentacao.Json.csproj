@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Itau.DesafioBackend.LeitoresDeMovimentacao.Json</AssemblyName>
+    <RootNamespace>Itau.DesafioBackend.LeitoresDeMovimentacao.Json</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Core.csproj" />
+    <ProjectReference Include="..\..\Utils\Utils.csproj" />
+    <ProjectReference Include="..\Abstracoes\LeitoresDeMovimentacao.Abstracoes.csproj" />
+  </ItemGroup>
+
+</Project>
